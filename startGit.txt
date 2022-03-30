@@ -1,0 +1,12 @@
+1. github  가입
+2. repository 만들기
+	- 주소 확인
+3. git-scm.com 에서 git download and setup
+
+4. 환경 설정
+- 이름등록 :  git config --global user.name sizepark
+- 이메일등록 :  git config --global user.email sizepark@hotmail.com
+
+5. local repository(내컴퓨터) <-> remote repository(github) 연동
+- git clone (git repository address)
+
