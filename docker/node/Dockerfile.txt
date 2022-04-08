@@ -1,0 +1,22 @@
+FROM alpine
+RUN npm install
+CMD ["npm", "start"]
+--------
+FROM node:apline
+RUN npm install
+CMD ["npm", "start"]
+--------
+FROM node:apline
+COPY ./ ./
+RUN npm install
+CMD ["npm", "start"]
+--------
+FROM node:apline
+WORKDIR /home/node
+COPY ./ ./
+RUN npm install
+CMD ["npm", "start"]
+
+$ docker build -t edowon0623/simpleweb .
+$ docker run edowon0623/simpleweb
+$ docker run $ -p 8080:8080 edowon0623/simpleweb
